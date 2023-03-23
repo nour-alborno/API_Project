@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="20dp"
+    android:background="@color/white"
+    android:layout_margin="5dp">
+
+
+    <ImageView
+        android:id="@+id/Img_Product"
+        android:layout_width="120dp"
+        android:layout_height="150dp"
+        android:src="@mipmap/ic_launcher"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"></ImageView>
+
+    <TextView
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/Tv_Title"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="25dp"
+        android:text="Title"
+        android:textStyle="bold"
+        android:textSize="16sp"
+        android:textColor="@color/black"
+        app:layout_constraintStart_toEndOf="@id/Img_Product"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/Tv_Price"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="20dp"
+        android:text="Price:"
+        android:textSize="14sp"
+        android:textColor="#504D4D"
+        app:layout_constraintStart_toEndOf="@id/Img_Product"
+        app:layout_constraintTop_toBottomOf="@id/Tv_Title"
+        />
+
+    <ImageButton
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:src="@drawable/ic_empty_heart"
+        android:id="@+id/Img_fav"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_margin="10dp"
+        android:scaleType="fitXY"
+        android:background="@color/white"
+        />
+
+
+    <ImageButton
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:src="@drawable/ic_cart_shopping_solid"
+        android:id="@+id/Img_addToCart"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/Img_fav"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="20dp"
+        android:scaleType="fitXY"
+        android:background="@color/white"
+        />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

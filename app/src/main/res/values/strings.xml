@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">APINourAlborno</string>
+
+    <string name="my_text"><u>Go Sign in</u>.</string>
+    <!--countries Array-->
+    <string-array name="countries">
+        <item>Country</item>
+        <item>Palestine</item>
+        <item>Egypt</item>
+        <item>Syria</item>
+        <item>USA</item>
+        <item>UK</item>
+        <item>Russia</item>
+        <item>Jordan</item>
+    </string-array>
+
+    <string-array name="Filter">
+        <item>No Filter</item>
+        <item>Cheaper</item>
+        <item>Expensive</item>
+
+    </string-array>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "211173174958",
+    "project_id": "fir-finalproject-e6368",
+    "storage_bucket": "fir-finalproject-e6368.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:211173174958:android:1f8a000a0a4f9e4eba073f",
+        "android_client_info": {
+          "package_name": "com.example.apinouralborno"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "211173174958-ogbqsldc1ummuqeef6c3ekrod3g10irs.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDIDyOHJY4TznggQvRwCW61OB-OLYpJcLE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "211173174958-ogbqsldc1ummuqeef6c3ekrod3g10irs.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
